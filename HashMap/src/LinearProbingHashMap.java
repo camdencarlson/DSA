@@ -3,10 +3,10 @@ import java.util.*;
 /**
  * Your implementation of a LinearProbingHashMap.
  *
- * @author YOUR NAME HERE
+ * @author Camden Carlson
  * @version 1.0
- * @userid YOUR USER ID HERE (i.e. gburdell3)
- * @GTID YOUR GT ID HERE (i.e. 900000000)
+ * @userid XXXXXXXX
+ * @GTID XXXXXXXX
  *
  * Collaborators: LIST ALL COLLABORATORS YOU WORKED WITH HERE
  *
