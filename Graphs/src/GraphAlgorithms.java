@@ -12,8 +12,8 @@ import java.util.HashMap;
  *
  * @author Camden Carlson
  * @version 1.0
- * @userid ccarlson43
- * @GTID 903550413
+ * @userid XXXXXXXX
+ * @GTID XXXXXXXX
  *
  * Collaborators: LIST ALL COLLABORATORS YOU WORKED WITH HERE
  *
