@@ -9,8 +9,8 @@ import java.util.Map;
  *
  * @author YOUR NAME HERE
  * @version 1.0
- * @userid ccarlson43
- * @GTID 903550413
+ * @userid XXXXXXXX
+ * @GTID XXXXXXXX
  *
  * Collaborators: LIST ALL COLLABORATORS YOU WORKED WITH HERE
  *
