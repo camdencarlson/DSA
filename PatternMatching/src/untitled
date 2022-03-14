@@ -1,0 +1,40 @@
+public static List<Integer> kmp(CharSequence pattern, CharSequence text,
+                                    CharacterComparator comparator) {
+        if (pattern ==  null || pattern.length() == 0
+                || text == null || comparator == null) {
+            throw new java.lang.IllegalArgumentException("Cannot match with null parameters");
+        }
+
+        List<Integer> toReturn = new ArrayList<Integer>();
+
+        if (pattern.length() <= text.length()) {
+            int[] failureTable = buildFailureTable(pattern, comparator);
+            int i = 0;
+            int j = 0;
+
+            while (i + pattern.length() - 1 < text.length()) {
+                int comp = comparator.compare(pattern.charAt(j), text.charAt(i + j));
+
+                // If character match
+                if (comp == 0) {
+                    j++;
+                    // If full match
+                    if (j == pattern.length()) {
+                        // Save occurrence index
+                        toReturn.add(i);
+                    }
+                }
+
+                if (j == pattern.length() || comp != 0) {
+                    if (j == 0) {
+                        i++;
+                    } else {
+                        i += j - failureTable[j - 1];
+                        j = failureTable[j - 1];
+                    }
+                }
+            }
+        }
+
+        return toReturn;
+    }
