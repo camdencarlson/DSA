@@ -5,8 +5,8 @@ import java.util.*;
  *
  * @author Camden Carlson
  * @version 1.0
- * @userid ccarlson43
- * @GTID 903550413
+ * @userid XXXXXXXX
+ * @GTID XXXXXXXX
  *
  * Collaborators:
  *
